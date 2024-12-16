@@ -60,6 +60,9 @@ exp/
 *.egg-info/
 build/
 dist/
+work_dirs/
+softgroup.egg-info/
+dataset/stpls3d/val_250m/
 
 *.tsv
 *.npy
