@@ -65,7 +65,7 @@ dataloader:
 
 optimizer:
   type: 'Adam'
-  lr: 0.004
+  lr: 0.001
 
 fp16: False
 epochs: 20

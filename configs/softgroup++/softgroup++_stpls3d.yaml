@@ -72,7 +72,7 @@ dataloader:
 
 optimizer:
   type: 'Adam'
-  lr: 0.004
+  lr: 0.001
 
 eval_min_npoint: 10
 
@@ -80,5 +80,5 @@ fp16: False
 epochs: 108
 step_epoch: 20
 save_freq: 4
-pretrain: './work_dirs/softgroup_opg_stpls3d_backbone/latest.pth'
+pretrain: './work_dirs/softgroup++_stpls3d_backbone/latest.pth'
 work_dir: ''
